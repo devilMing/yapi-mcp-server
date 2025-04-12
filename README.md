@@ -37,7 +37,7 @@ The server can be configured in your Claude Desktop config file:
   "mcpServers": {
     "yapi": {
       "type": "SSE",
-      "url": "http://localhost:3001/sse"
+      "url": "http://localhost:${your .env PORT}/sse"
     }
   }
 }
