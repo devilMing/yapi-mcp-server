@@ -31,6 +31,8 @@ Start the server:
 npm start
 ```
 The server can be configured in your Claude Desktop config file:
+
+```json
 {
   "mcpServers": {
     "yapi": {
@@ -39,3 +41,4 @@ The server can be configured in your Claude Desktop config file:
     }
   }
 }
+```
